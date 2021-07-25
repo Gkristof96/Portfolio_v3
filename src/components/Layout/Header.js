@@ -1,31 +1,39 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import HamburgerButton from "../UI/Buttons/HamburgerButton";
-import "./Header.module.css";
+import style, { logo, navigation } from "./Header.module.css";
 
 const Header = (props) => {
   return (
     <header>
-      <Link to="/">
+      <Link to="/" className={logo}>
         <img src="images/logo.png" alt="logo" />
       </Link>
-      <nav>
+      <nav className={navigation}>
         <ul>
           <li>
-            <NavLink to="">Főoldal</NavLink>
+            <NavLink to="/" activeClassName="active">
+              Főoldal
+            </NavLink>
           </li>
           <li>
-            <NavLink to="">Projektek</NavLink>
+            <NavLink to="/" activeClassName="active">
+              Projektek
+            </NavLink>
           </li>
           <li>
-            <NavLink to="">Rólam</NavLink>
+            <NavLink to="/" activeClassName="active">
+              Rólam
+            </NavLink>
           </li>
           <li>
-            <NavLink to="">Kapcsolat</NavLink>
+            <NavLink to="" activeClassName="active">
+              Kapcsolat
+            </NavLink>
           </li>
         </ul>
       </nav>
-      <div className="">
+      <div className={style["hamburger-btn"]}>
         <HamburgerButton
           isMenuOpen={props.isMenuOpen}
           onToggleMenu={props.onMenuToggle}
