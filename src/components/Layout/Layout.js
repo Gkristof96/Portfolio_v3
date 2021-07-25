@@ -11,7 +11,7 @@ const Layout = (props) => {
   return (
     <div>
       <Header isMenuOpen={isMenuOpen} onMenuToggle={toggleMenuHandler} />
-      {props.children}
+      <main>{props.children}</main>
     </div>
   );
 };

@@ -1,0 +1,65 @@
+.bar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar .icon {
+  width: 20px;
+  height: 36px;
+  position: relative;
+  margin: 0 8px;
+}
+
+.bar .line {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(57, 62, 70, 0) 0%,
+    rgba(57, 62, 70, 0.5) 100%
+  );
+}
+
+.bar .inverseline {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(57, 62, 70, 0) 0%,
+    rgba(57, 62, 70, 0.5) 100%
+  );
+  transform: rotate(180deg);
+}
+
+.bar .icon .capsule,
+.bar .icon .dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bar .icon .capsule {
+  top: 0;
+}
+
+.bar .icon .dot {
+  top: 6px;
+  animation: dot-move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes dot-move {
+  from {
+    top: 6px;
+    opacity: 1;
+  }
+  to {
+    top: 16px;
+    opacity: 0;
+  }
+}

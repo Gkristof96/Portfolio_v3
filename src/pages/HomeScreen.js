@@ -1,7 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Hero from "../components/HomeScreen/Hero";
+import ScrollImage from "../components/HomeScreen/ScrollImage";
 
 const HomeScreen = () => {
-  return <div>home</div>;
+  return (
+    <Fragment>
+      <Hero />
+      <ScrollImage />
+    </Fragment>
+  );
 };
 
 export default HomeScreen;
