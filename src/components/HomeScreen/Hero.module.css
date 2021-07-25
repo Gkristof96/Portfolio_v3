@@ -2,7 +2,7 @@
   width: 100%;
   height: calc(100vh - 180px);
   margin-top: 80px;
-  padding: 10px calc((100vw - 1200px) / 2);
+  padding: 0 calc((100vw - 1200px) / 2);
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
