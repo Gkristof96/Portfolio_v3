@@ -4,6 +4,14 @@
   margin-bottom: 100px;
 }
 
+.project-card.right {
+  flex-direction: row-reverse;
+}
+
+.project-card.right .text-wrapper {
+  margin-right: 25px;
+}
+
 .project-card .image-wrapper {
   max-width: 400px;
   position: relative;
@@ -13,19 +21,31 @@
   width: 100%;
 }
 
-.project-card .image-wrapper .front-dots {
+.project-card.left .image-wrapper .front-dots {
   position: absolute;
   bottom: -20px;
   left: -30px;
 }
-.project-card .image-wrapper .back-dots {
+.project-card.left .image-wrapper .back-dots {
   position: absolute;
   top: -30px;
   right: 25%;
   z-index: -5;
 }
 
-.project-card .text-wrapper {
+.project-card.right .image-wrapper .front-dots {
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+}
+.project-card.right .image-wrapper .back-dots {
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  z-index: -5;
+}
+
+.project-card.left .text-wrapper {
   margin-left: 25px;
 }
 

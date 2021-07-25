@@ -1,9 +1,9 @@
 import style from "./ProjectCard.module.css";
 import { FaGlobeEurope, FaGithub } from "react-icons/fa";
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   return (
-    <div className={style["project-card"]}>
+    <div className={`${style["project-card"]} ${style[`${props.type}`]}`}>
       <div className={style["image-wrapper"]}>
         <img
           className={style["front-dots"]}
@@ -42,6 +42,10 @@ const ProjectCard = () => {
       </div>
     </div>
   );
+};
+
+ProjectCard.defaultProps = {
+  type: "left",
 };
 
 export default ProjectCard;

@@ -6,9 +6,9 @@ const Projects = () => {
     <section className={style.projects}>
       <h1 className={style.title}>Projektek</h1>
       <h2 className={style.subtitle}>Korábbi munkáim</h2>
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
+      <ProjectCard type="left" />
+      <ProjectCard type="right" />
+      <ProjectCard type="left" />
       <div className={style["link-wrapper"]}>
         <div className={style.line} />
         <button className={style["link-btn"]}>More projects</button>
