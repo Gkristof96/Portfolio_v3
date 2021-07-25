@@ -34,6 +34,43 @@ const About = () => {
         </div>
       </div>
       <h2 className={style["tech-title"]}>Tech Stack</h2>
+      <div className={style["logo-bar"]}>
+        <img
+          className={style["tech-logo"]}
+          src="images/tech_logos/html5.png"
+          alt="html5_logo"
+        />
+        <img
+          className={style["tech-logo"]}
+          src="images/tech_logos/css3.png"
+          alt="css3_logo"
+        />
+        <img
+          className={style["tech-logo"]}
+          src="images/tech_logos/javascript.png"
+          alt="javascript_logo"
+        />
+        <img
+          className={style["tech-logo"]}
+          src="images/tech_logos/react.png"
+          alt="react_logo"
+        />
+        <img
+          className={style["tech-logo"]}
+          src="images/tech_logos/sass.png"
+          alt="sass_logo"
+        />
+        <img
+          className={style["tech-logo"]}
+          src="images/tech_logos/figma.png"
+          alt="figma_logo"
+        />
+      </div>
+      <div className={style["link-wrapper"]}>
+        <div className={style.line} />
+        <button className={style["link-btn"]}>Get my cv</button>
+        <div className={style.inverseline} />
+      </div>
     </section>
   );
 };
