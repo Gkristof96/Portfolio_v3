@@ -60,13 +60,14 @@ footer .cta {
 }
 
 .cta .text {
+  text-decoration: none;
   text-align: center;
   width: 300px;
   margin: 0 8px;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-
+  cursor: pointer;
   color: #eeeeee;
 }
 

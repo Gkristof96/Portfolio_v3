@@ -4,6 +4,9 @@ import { AiFillLinkedin, AiFillDribbbleSquare } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 
 const Footer = () => {
+  const scrollToTopHandler = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <footer>
       <div className={style.content}>
@@ -26,7 +29,9 @@ const Footer = () => {
       </div>
       <div className={style.cta}>
         <div className={style.line} />
-        <span className={style.text}>Vissza a tetejére</span>
+        <span onClick={scrollToTopHandler} className={style.text}>
+          Vissza a tetejére
+        </span>
         <div className={style.inverseline} />
       </div>
       <div className={style.bottom}>
