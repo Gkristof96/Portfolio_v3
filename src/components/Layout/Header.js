@@ -17,17 +17,17 @@ const Header = (props) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/" activeClassName="active">
+            <NavLink to="/projects" activeClassName="active">
               Projektek
             </NavLink>
           </li>
           <li>
-            <NavLink to="/" activeClassName="active">
+            <NavLink to="/about" activeClassName="active">
               Rólam
             </NavLink>
           </li>
           <li>
-            <NavLink to="" activeClassName="active">
+            <NavLink to="/contact" activeClassName="active">
               Kapcsolat
             </NavLink>
           </li>
