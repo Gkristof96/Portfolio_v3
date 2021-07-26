@@ -1,10 +1,11 @@
 import GradientLine from "../UI/GradientLine";
 import style from "./About.module.css";
 import LinkButton from "../UI/Buttons/LinkButton";
+import Card from "../UI/Card";
 
 const About = () => {
   return (
-    <section className={style.about}>
+    <Card>
       <h1 className={style.title}>Rólam</h1>
       <h2 className={style.subtitle}>Ki is vagyok én</h2>
       <div className={style["text-wrapper"]}>
@@ -73,7 +74,7 @@ const About = () => {
         <LinkButton path="/pdf">Önéletrajz</LinkButton>
         <GradientLine side="right" />
       </div>
-    </section>
+    </Card>
   );
 };
 

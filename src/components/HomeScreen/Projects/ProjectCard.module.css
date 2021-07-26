@@ -57,15 +57,6 @@
   color: #212121;
 }
 
-.text-wrapper .project-description {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 15px;
-  text-align: justify;
-  color: #212121;
-}
-
 .text-wrapper .button-wrapper {
   display: flex;
 }

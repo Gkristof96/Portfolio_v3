@@ -1,10 +1,11 @@
 import LinkButton from "../UI/Buttons/LinkButton";
 import GradientLine from "../UI/GradientLine";
+import Card from "../UI/Card";
 import style from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <section className={style.contact}>
+    <Card>
       <h1 className={style.title}>Kapcsolat</h1>
       <h2 className={style.subtitle}>Ha tetszet amit láttál írj egy levelet</h2>
       <p className={style.description}>
@@ -17,7 +18,7 @@ const Contact = () => {
         <LinkButton path="/contact">Írj nekem</LinkButton>
         <GradientLine side="right" />
       </div>
-    </section>
+    </Card>
   );
 };
 

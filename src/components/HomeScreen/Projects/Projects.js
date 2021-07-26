@@ -3,10 +3,11 @@ import ProjectCard from "./ProjectCard";
 import { projectData } from "../../../data/projects";
 import GradientLine from "../../UI/GradientLine";
 import LinkButton from "../../UI/Buttons/LinkButton";
+import Card from "../../UI/Card";
 
 const Projects = () => {
   return (
-    <section className={style.projects}>
+    <Card>
       <h1 className={style.title}>Projektek</h1>
       <h2 className={style.subtitle}>Korábbi munkáim</h2>
       <ProjectCard projectData={projectData[0]} type="left" />
@@ -17,7 +18,7 @@ const Projects = () => {
         <LinkButton path="/projects">Még több projekt</LinkButton>
         <GradientLine side="right" />
       </div>
-    </section>
+    </Card>
   );
 };
 
