@@ -1,3 +1,4 @@
+import LinkButton from "../UI/Buttons/LinkButton";
 import GradientLine from "../UI/GradientLine";
 import style from "./Contact.module.css";
 
@@ -13,7 +14,7 @@ const Contact = () => {
       </p>
       <div className={style["link-wrapper"]}>
         <GradientLine />
-        <button className={style["link-btn"]}>Írj nekem</button>
+        <LinkButton path="/contact">Írj nekem</LinkButton>
         <GradientLine side="right" />
       </div>
     </section>

@@ -2,6 +2,7 @@ import style from "./Projects.module.css";
 import ProjectCard from "./ProjectCard";
 import { projectData } from "../../../data/projects";
 import GradientLine from "../../UI/GradientLine";
+import LinkButton from "../../UI/Buttons/LinkButton";
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
       <ProjectCard projectData={projectData[2]} type="left" />
       <div className={style["link-wrapper"]}>
         <GradientLine />
-        <button className={style["link-btn"]}>More projects</button>
+        <LinkButton path="/projects">Még több projekt</LinkButton>
         <GradientLine side="right" />
       </div>
     </section>

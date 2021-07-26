@@ -12,7 +12,6 @@ const Hero = () => {
           És ez az én portfolió oldalam, ide gyűjtöttem össze korábbi
           projekjeim, hogy másokhoz is eljussanak, ha azok érdeklődnek iránta.
         </p>
-        <button className={style["button"]}>Scrool to my Projects</button>
       </div>
       <div className={style["image-wrapper"]}>
         <img

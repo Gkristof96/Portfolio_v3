@@ -1,5 +1,6 @@
 import GradientLine from "../UI/GradientLine";
 import style from "./About.module.css";
+import LinkButton from "../UI/Buttons/LinkButton";
 
 const About = () => {
   return (
@@ -29,7 +30,7 @@ const About = () => {
             dummy text ever since the 1500s.
           </p>
           <div className={style["btn-wrapper"]}>
-            <button className={style.btn}>Tudj meg többet rólam</button>
+            <LinkButton path="about">Tudj meg többet rólam</LinkButton>
             <GradientLine side="right" />
           </div>
         </div>
@@ -69,7 +70,7 @@ const About = () => {
       </div>
       <div className={style["link-wrapper"]}>
         <GradientLine />
-        <button className={style["link-btn"]}>Get my cv</button>
+        <LinkButton path="/pdf">Önéletrajz</LinkButton>
         <GradientLine side="right" />
       </div>
     </section>
