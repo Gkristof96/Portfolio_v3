@@ -1,3 +1,4 @@
+import GradientLine from "../UI/GradientLine";
 import style from "./About.module.css";
 
 const About = () => {
@@ -29,7 +30,7 @@ const About = () => {
           </p>
           <div className={style["btn-wrapper"]}>
             <button className={style.btn}>Tudj meg többet rólam</button>
-            <div className={style["inverseline"]} />
+            <GradientLine side="right" />
           </div>
         </div>
       </div>
@@ -67,9 +68,9 @@ const About = () => {
         />
       </div>
       <div className={style["link-wrapper"]}>
-        <div className={style.line} />
+        <GradientLine />
         <button className={style["link-btn"]}>Get my cv</button>
-        <div className={style.inverseline} />
+        <GradientLine side="right" />
       </div>
     </section>
   );

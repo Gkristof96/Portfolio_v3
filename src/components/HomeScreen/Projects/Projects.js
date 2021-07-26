@@ -1,6 +1,7 @@
 import style from "./Projects.module.css";
 import ProjectCard from "./ProjectCard";
 import { projectData } from "../../../data/projects";
+import GradientLine from "../../UI/GradientLine";
 
 const Projects = () => {
   return (
@@ -11,9 +12,9 @@ const Projects = () => {
       <ProjectCard projectData={projectData[1]} type="right" />
       <ProjectCard projectData={projectData[2]} type="left" />
       <div className={style["link-wrapper"]}>
-        <div className={style.line} />
+        <GradientLine />
         <button className={style["link-btn"]}>More projects</button>
-        <div className={style.inverseline} />
+        <GradientLine side="right" />
       </div>
     </section>
   );

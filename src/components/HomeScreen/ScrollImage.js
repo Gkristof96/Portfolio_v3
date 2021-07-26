@@ -1,9 +1,9 @@
 import style from "./ScrollImage.module.css";
-
+import GradientLine from "../UI/GradientLine";
 const ScrollImage = () => {
   return (
     <div className={style.bar}>
-      <div className={style.line} />
+      <GradientLine />
       <div className={style.icon}>
         <img
           className={style.capsule}
@@ -12,7 +12,7 @@ const ScrollImage = () => {
         />
         <img className={style.dot} src="images/dot.png" alt="scroll icon dot" />
       </div>
-      <div className={style.inverseline} />
+      <GradientLine side="right" />
     </div>
   );
 };

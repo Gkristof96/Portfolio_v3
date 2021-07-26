@@ -70,7 +70,8 @@
   display: flex;
 }
 
-.button-wrapper button {
+.button-wrapper .project-button {
+  text-decoration: none;
   border: 2px solid #393e46;
   box-sizing: border-box;
   background: #fff;
@@ -85,9 +86,16 @@
   align-items: center;
   justify-content: center;
   color: #393e46;
+  transition: 0.5s ease-in-out;
 }
 
-.button-wrapper button .button-icon {
+.button-wrapper .project-button:hover {
+  transform: scale(1.1);
+  color: #0092ca;
+  border-color: #0092ca;
+}
+
+.button-wrapper .project-button .button-icon {
   font-size: 18px;
   margin-left: 5px;
 }

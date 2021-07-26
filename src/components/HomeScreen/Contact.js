@@ -1,3 +1,4 @@
+import GradientLine from "../UI/GradientLine";
 import style from "./Contact.module.css";
 
 const Contact = () => {
@@ -11,9 +12,9 @@ const Contact = () => {
         írni nekem egy emailt az erre a célra kialakitott űrlap segítségével
       </p>
       <div className={style["link-wrapper"]}>
-        <div className={style.line} />
+        <GradientLine />
         <button className={style["link-btn"]}>Írj nekem</button>
-        <div className={style.inverseline} />
+        <GradientLine side="right" />
       </div>
     </section>
   );

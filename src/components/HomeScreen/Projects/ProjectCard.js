@@ -24,10 +24,20 @@ const ProjectCard = (props) => {
         <h3 className={style["project-title"]}>{name}</h3>
         <p className={style["project-description"]}>{description}</p>
         <div className={style["button-wrapper"]}>
-          <a href={deploy_link} className={style["project-buttons"]}>
+          <a
+            href={deploy_link}
+            target="_blank"
+            rel="noreferrer"
+            className={style["project-button"]}
+          >
             See live <FaGlobeEurope className={style["button-icon"]} />
           </a>
-          <a href={github_link} className={style["project-buttons"]}>
+          <a
+            href={github_link}
+            target="_blank"
+            rel="noreferrer"
+            className={style["project-button"]}
+          >
             See Github <FaGithub className={style["button-icon"]} />
           </a>
         </div>
