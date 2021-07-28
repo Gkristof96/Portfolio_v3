@@ -13,3 +13,18 @@
   text-align: center;
   font-weight: 600;
 }
+
+.card-container {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.link-wrapper {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}

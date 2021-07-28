@@ -2,10 +2,12 @@ import style from "./ProjectCard.module.css";
 import { FaGlobeEurope, FaGithub } from "react-icons/fa";
 
 const ProjectCard = (props) => {
-  const { name, description, image, deploy_link, github_link } =
+  const { name, description, image, deploy_link, github_link, id } =
     props.projectData;
+
+  let type = id % 2 === 0 ? "left" : "right";
   return (
-    <div className={`${style["project-card"]} ${style[`${props.type}`]}`}>
+    <div className={`${style["project-card"]} ${style[`${type}`]}`}>
       <div className={style["image-wrapper"]}>
         <img
           className={style["front-dots"]}

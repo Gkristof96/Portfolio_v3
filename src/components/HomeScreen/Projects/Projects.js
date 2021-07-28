@@ -10,9 +10,9 @@ const Projects = () => {
     <Card>
       <h1 className={style.title}>Projektek</h1>
       <h2 className={style.subtitle}>Korábbi munkáim</h2>
-      <ProjectCard projectData={projectData[0]} type="left" />
-      <ProjectCard projectData={projectData[1]} type="right" />
-      <ProjectCard projectData={projectData[2]} type="left" />
+      <ProjectCard projectData={projectData[0]} />
+      <ProjectCard projectData={projectData[1]} />
+      <ProjectCard projectData={projectData[2]} />
       <div className={style["link-wrapper"]}>
         <GradientLine />
         <LinkButton path="/projects">Még több projekt</LinkButton>
