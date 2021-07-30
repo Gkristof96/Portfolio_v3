@@ -6,11 +6,11 @@ const Hero = () => {
       <div className={style["text-wrapper"]}>
         <h1 className={style["title"]}>Üdv az oldalamon</h1>
         <h2 className={style["subtitle"]}>
-          én <span className={name}>Kristóf</span> vagyok
+          Az én nevem <span className={name}>Kristóf</span>
         </h2>
         <p className={style["description"]}>
-          És ez az én portfolió oldalam, ide gyűjtöttem össze korábbi
-          projekjeim, hogy másokhoz is eljussanak, ha azok érdeklődnek iránta.
+          Frontend fejlesztő vagyok, akinek egyaránt fontos az igényes
+          megjelenés és a jó felhasználói élmény.
         </p>
       </div>
       <div className={style["image-wrapper"]}>
