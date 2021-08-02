@@ -11,9 +11,9 @@ const ProjectsScreen = () => {
       <h1>Projektek</h1>
       <h2>Korábbi munkáim amiken dolgoztam</h2>
       <p>
-        Itt néhány korábbi projektemet szedtem össze, megtalálható benne minden
-        fajta projekt sima weboldal, weboldal design, fullstack megoldás, és
-        sima React projektek is.
+        Itt megtalálod a korábbi projekteimet amiken dolgoztam, ezek között van
+        mindenféle, egyszerű weboldal, weboldal design, vagy teljes értékű
+        webalkalmazás is.
       </p>
       <div className={style["card-container"]}>
         {projectData.map((data) => (

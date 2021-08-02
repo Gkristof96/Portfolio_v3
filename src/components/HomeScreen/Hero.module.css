@@ -10,17 +10,17 @@
 
 .text-wrapper .title {
   font-weight: 600;
-  font-size: 60px;
-  line-height: 83px;
+  font-size: clamp(40px, 3vw, 60px);
+  line-height: clamp(60px, 3vw, 83px);
   margin-bottom: 15px;
   color: #212121;
 }
 
 .text-wrapper .subtitle {
   font-weight: 600;
-  font-size: 48px;
-  line-height: 55px;
-  margin-bottom: 25px;
+  font-size: clamp(32px, 2.5vw, 48px);
+  line-height: clamp(40px, 2.5vw, 55px);
+  margin-bottom: clamp(32px, 2.5vw, 48px);
   color: #212121;
 }
 
@@ -57,4 +57,27 @@
 .image-wrapper .large-dots {
   top: -20px;
   right: -20px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 0 25px;
+    grid-template-columns: 1fr;
+  }
+  .hero .image-wrapper {
+    grid-row: 1/2;
+    max-width: 270px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .image-wrapper .profile-img {
+    width: 80%;
+  }
+
+  .text-wrapper,
+  .text-wrapper .description {
+    text-align: center;
+  }
 }

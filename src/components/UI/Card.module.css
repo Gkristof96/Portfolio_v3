@@ -3,3 +3,10 @@
   margin-top: 100px;
   padding: 0 calc((100vw - 1200px) / 2);
 }
+
+@media (max-width: 768px) {
+  .card {
+    padding: 0 25px;
+    margin-top: 50px;
+  }
+}
