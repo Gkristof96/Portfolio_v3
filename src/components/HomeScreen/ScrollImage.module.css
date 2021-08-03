@@ -58,3 +58,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 1250px) {
+  .bar {
+    padding: 0 25px;
+  }
+}

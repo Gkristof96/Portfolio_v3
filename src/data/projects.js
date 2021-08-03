@@ -12,7 +12,7 @@ export const projectData = [
   {
     id: 1,
     name: "LAESZ weboldal",
-    image: "images/projects/project_1.webp",
+    image: "images/projects/project_7.webp",
     description:
       "A Lakos Ádám evangélikus szeretetszolgálat számára kellett egy olyan weboldalt készítenem, ami a szeretetszolgálat szolgáltatásait és működését mutatja be. Az oldal korábbi verziója nem volt reszponzív, de a statisztikákból egyértelműen látszott, hogy a felhasználói bázis fele mobil készülékről látogatja az oldalt, ezért egy modern reszponzív felületet készítettem a szeretetszolgálat számára. Jelenleg az oldal elfogadásra vár, ezért nem tudok éles verziót mutatni belőle ",
     deploy_link: "https://kristof-gym-2.netlify.app",
@@ -21,7 +21,7 @@ export const projectData = [
   {
     id: 2,
     name: "Gym Site v2",
-    image: "images/projects/project_2.webp",
+    image: "images/projects/project_1.webp",
     description:
       "Egy korábbi projektem újragondolása volt ezt a projekt. Egy kitalált edzőterem alapvető információnak megjelenítése a feladata, és erre terveztem egy a korábbinál előnyösebb oldalt, ami az információk számában is részletesebb, valamint animációkkal is feldobtam az oldal megjelenését.",
     deploy_link: "https://kristof-todo.netlify.app",
@@ -39,7 +39,7 @@ export const projectData = [
   {
     id: 4,
     name: "Weather app",
-    image: "images/projects/project_2.webp",
+    image: "images/projects/project_3.webp",
     description:
       "Második komolyabb logikát is alkalmazó projektem volt ez, a projekttel az volt a célom, hogy egy olyan alkalmazást készítsek, ami külső adatforrást használ a működésére. Erre tökéletes megoldásnak tűnt egy időjárást megjelenítő alkalmazás, az időjárási adatokat pedig az OpenWeather Api segítségével könnyedén felhasználhattam az alkalmazásomban. Az alkalmazás városok szerint keresve tudja megjeleníteni a helyi általános időjárási adatokat.",
     deploy_link: "https://kristof-todo.netlify.app",
@@ -48,7 +48,7 @@ export const projectData = [
   {
     id: 5,
     name: "Bikeshop",
-    image: "images/projects/project_2.webp",
+    image: "images/projects/project_8.webp",
     description:
       "Hasonlóan az edző termi oldalhoz ez az oldal is egy kitalált bolt információt jeleníti meg. Annyi a különbség az edző termi oldalhoz, hogy ennek az oldalnak még csak a design tervei vannak készen.",
     deploy_link: "https://kristof-todo.netlify.app",
@@ -57,7 +57,7 @@ export const projectData = [
   {
     id: 6,
     name: "Portfolio v2",
-    image: "images/projects/project_2.webp",
+    image: "images/projects/project_9.webp",
     description:
       "Második portfolió oldalam, viszonylag hamar elkészítettem a portfolió oldalam második verzióját, ennek oka az volt, hogy nem voltam megelégedve az oldal több funkciójával sem. Az új oldalon több információt jelenítettem meg magamról, valamint a projektjeim is átláthatóbb formában tudtam prezentálni.",
     deploy_link: "https://kristof-todo.netlify.app",
@@ -66,7 +66,7 @@ export const projectData = [
   {
     id: 7,
     name: "Portfolio v1",
-    image: "images/projects/project_2.webp",
+    image: "images/projects/project_4.webp",
     description:
       "Első portfolió oldalam, amelynek elsődleges célja a korábbi munkáim megjelenítése volt, ezen felül további információkat szolgáltatott rólam. Valamint remek fejlődési lehetőséget nyújtott UI tervezés szempontjából.",
     deploy_link: "https://kristof-todo.netlify.app",
@@ -75,7 +75,7 @@ export const projectData = [
   {
     id: 8,
     name: "Gym Site v1",
-    image: "images/projects/project_2.webp",
+    image: "images/projects/project_5.webp",
     description:
       "Első projektem a frontend fejlesztés területén, ami egy teljes weboldal tervezését foglalta magában. Az feladata egy fiktív edzőterem általános információnak megjelenítése, edzők, árak, valamint elérhetőségek.",
     deploy_link: "https://kristof-todo.netlify.app",

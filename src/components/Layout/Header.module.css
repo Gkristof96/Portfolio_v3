@@ -54,7 +54,7 @@ header .hamburger-btn {
   display: none;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1250px) {
   header {
     padding: 0 25px;
   }

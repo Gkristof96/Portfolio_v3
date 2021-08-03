@@ -18,13 +18,15 @@
 }
 
 .project-card .image-wrapper .project-image {
-  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .project-card.left .image-wrapper .front-dots {
   position: absolute;
   bottom: -20px;
   left: -15px;
+  z-index: -5;
 }
 .project-card.left .image-wrapper .back-dots {
   position: absolute;
@@ -37,6 +39,7 @@
   position: absolute;
   bottom: -20px;
   left: 30px;
+  z-index: -5;
 }
 .project-card.right .image-wrapper .back-dots {
   position: absolute;
@@ -51,7 +54,7 @@
 
 .text-wrapper .project-title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: clamp(18px, 2.5vw, 22px);
   line-height: 27px;
   margin-bottom: 10px;
   color: #212121;
@@ -91,15 +94,35 @@
   margin-left: 5px;
 }
 
+@media (max-width: 1250px) {
+  .project-card .image-wrapper {
+    max-width: 270px;
+  }
+
+  .project-card .image-wrapper .project-image {
+    max-width: 270px;
+  }
+}
+
 @media (max-width: 768px) {
   .project-card,
   .project-card.right {
     flex-direction: column;
+    align-items: center;
   }
   .project-card.left .text-wrapper,
   .project-card.right .text-wrapper {
     margin: 0;
     margin-top: 30px;
+  }
+
+  .project-card .image-wrapper {
+    max-width: 718px;
+  }
+
+  .project-card .image-wrapper .project-image {
+    max-width: 718px;
+    width: 100%;
   }
 
   .project-card.left .text-wrapper .project-description {

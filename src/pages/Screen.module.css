@@ -37,3 +37,7 @@
   object-fit: cover;
   object-position: 0 10%;
 }
+
+.text-wrapper {
+  margin-bottom: 100px;
+}
