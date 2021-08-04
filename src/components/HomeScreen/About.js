@@ -12,14 +12,14 @@ const About = () => {
         <div className={style["left-text"]}>
           <p>
             Már egészen kiskoromtól jelen volt bennem az alkotási vágy, mindig
-            azokkal a játékokkal tudtam a legjobban szórakozni amikben valami
+            azokkal a játékokkal tudtam a legjobban szórakozni, amikben valami
             újat tudtam létrehozni. Az informatikával is már viszonylag korán
             találkoztam, informatika szakos szakközépbe jártam és innen
-            Mérnökinformatiak szakra mentem az egyetemre. Ebből a két ágból
-            összefonva kerültem a frontend fejlesztési területre. Az egyetem
-            mellett igyekeztem magam tovább fejleszteni, és kiprobálni minél
-            több technológiát. Így ismerkedtem meg a Nodejs-el a Reactal és még
-            sok kisebb nagyobb technológiával.
+            Mérnökinformatika szakra mentem a Győri Széchenyi István egyetemre.
+            Ebből a két ágból összefonva kerültem a frontend fejlesztési
+            területre. Az egyetem mellett igyekeztem magam tovább fejleszteni,
+            és kipróbálni magam minél több technológiában. Így ismerkedtem meg a
+            Nodejs-el a React-al és még sok kisebb nagyobb technológiával.
           </p>
         </div>
         <div className={style["right-text"]}>
@@ -27,7 +27,7 @@ const About = () => {
             Mint frontend fejlesztő legfontosabb feladatomnak azt tartom hogy
             olyan munkákat adjak ki a kezeim közül, amely teljesen megfelel a
             felhasználók igényeinek, egyaránt kényelmes azok használata, de
-            emelett nem nélkülőzi az igényes megjelenést.
+            emellett nem nélkülözi az igényes megjelenést.
           </p>
           <div className={style["btn-wrapper"]}>
             <GradientLine />

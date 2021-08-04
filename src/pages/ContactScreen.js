@@ -52,7 +52,7 @@ const ContactScreen = () => {
               Ha felkeltettem az érdeklődésedet, vagy csupán kérdezni szeretnél
               tőlem valamit, akkor itt remek lehetőséged van erre. Az alább
               felsorolt elérhetőségeken keresztül elérhetsz bármikor, vagy
-              használhatod az itt megtalálható űrlapot is amit külön erre
+              használhatod az itt megtalálható űrlapot is, amit külön erre
               készítettem. Amint lehetőségem engedi válaszolni fogok a
               leveledre.
             </p>

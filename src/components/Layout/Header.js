@@ -29,22 +29,22 @@ const Header = (props) => {
       <nav className={navigation}>
         <ul>
           <li>
-            <NavLink to="/" activeClassName="active">
+            <NavLink to="/" exact activeClassName={style.active}>
               Főoldal
             </NavLink>
           </li>
           <li>
-            <NavLink to="/projects" activeClassName="active">
+            <NavLink to="/projects" activeClassName={style.active}>
               Projektek
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about" activeClassName="active">
+            <NavLink to="/about" activeClassName={style.active}>
               Rólam
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" activeClassName="active">
+            <NavLink to="/contact" activeClassName={style.active}>
               Kapcsolat
             </NavLink>
           </li>

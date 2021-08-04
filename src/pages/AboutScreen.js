@@ -14,7 +14,7 @@ const AboutScreen = () => {
         <h2>Én mint fejlesztő</h2>
         <p>
           Ahogy korábban már írtam már egészen kiskoromtól bennem volt az
-          alkotási vágy, akkor érzem jól magam ha létrehozhatok valamit. Ez
+          alkotási vágy, akkor érzem jól magam, ha létrehozhatok valamit. Ez
           gyermek koromban még a rajzolást, homokvár építést, legozást, majd
           nagyobb koromban már különböző építést tervezést szimuláló játékokkal
           való foglalkozást jelentett. Felnőtként pedig egyértelműen a
@@ -29,19 +29,19 @@ const AboutScreen = () => {
           területére is betekintettem.
         </p>
         <p>
-          Frontend fejlesztőként jelenlegi legfontosabb célom hogy olyan cégnél
-          tudjak elhelyezkedni ahol jó lehetőségeim vannak a szakmai tudásom
-          fejlesztésére. Valamint hogy olyan projekteben tudjak részt vállalni,
+          Frontend fejlesztőként jelenlegi legfontosabb célom, hogy olyan cégnél
+          tudjak elhelyezkedni, ahol jó lehetőségeim vannak a szakmai tudásom
+          fejlesztésére. Valamint, hogy olyan projekteben tudjak részt vállalni,
           amelyek valamely módon könnyebé tehetik az emberek életét, és vagy
           munkáját.
         </p>
         <h2>Mikor éppen nem programozok</h2>
         <p>
-          A szabadidőmet szeretem a barátaimmal, sportolással, és új dolgok
-          felfedezésével töltenni. Szerencsére ezeket együtt is tudom végezni,
+          A szabadidőmet szeretem a barátaimmal, sportolással és új dolgok
+          felfedezésével tölteni. Szerencsére ezeket együtt is tudom végezni,
           gyakran járunk kerékpártúrákra, korábban pedig fallabdázni. Ezen kívül
           szeretek olvasni, megismerni új dolgokat a világról, vagy egy jó
-          történetet, valamint a gasztrónomiával is szoktam ismerkedni
+          történetet, valamint a gasztronómiával is szoktam ismerkedni
           mostanában.
         </p>
       </div>

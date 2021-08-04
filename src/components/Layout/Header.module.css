@@ -50,13 +50,14 @@ header .navigation ul {
 
 header .navigation ul li {
   transition: 0.5s ease-in-out;
+  margin: 0 5px;
 }
 
 header .navigation ul li:hover {
   transform: translateY(-5px);
 }
 
-header .navigation ul li a {
+.navigation ul li a {
   text-decoration: none;
   font-weight: 600;
   font-size: clamp(12px, 1.25vw, 18px);
@@ -65,8 +66,8 @@ header .navigation ul li a {
   color: #212121;
 }
 
-header .navigation ul li a.active {
-  font-size: clamp(14px, 1.25vw, 22px);
+.navigation ul li a.active {
+  border-bottom: 3px solid #0092ca;
 }
 
 header .hamburger-btn {

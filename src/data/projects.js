@@ -4,7 +4,7 @@ export const projectData = [
     name: "Your Specialist",
     image: "images/projects/project_6.webp",
     description:
-      "Eddigi legösszetetteb projektem, amelynek fő koncepciója a szakemberek kereshetőségének javítása. Ehhez a szakembereknek lehetőségük van létrehozni egy profil maguknak és a felhasználóknak lehetőségük van keresgélni ezek között a szakemberek között. A projekt során egyaránt használtam frontend és backend oldali technológiákat, és egyértelműen ebben a projektben használtam ki a legjobban a React lehetőségeit. Ebben a projektben ismerkedtem meg a Redux és a Formik könyvtárakkal is amik megkönnyítették a dolgomat.",
+      "Eddigi legösszetettebb projektem, melynek fő célja, hogy a felhasználók könnyedén megtalálják azt a szakembert, akit éppen keresnek. A szakemberek létrehozhatnak maguknak egy profilt, amit a felhasználók megkereshetnek és értékelhetik is azt. A projekt során én készítettem el a frontend és a backend oldali kódot is, utóbbit az Express keretrendszer segítségével készítettem el. Míg a frontendet a React könyvtárral, ebben a projektben használtam ki legjobban a React adta lehetőségeket, és itt ismerkedtem meg a Redux és Formik könyvtárakkal is.",
     deploy_link:
       "https://www.figma.com/file/oQyHIgoTKudLshortAh3Q3/Your-Specialist_v3?node-id=0%3A1",
     github_link: "https://github.com/Gkristof96/Your-specilist_v2",
@@ -14,7 +14,7 @@ export const projectData = [
     name: "LAESZ weboldal",
     image: "images/projects/project_7.webp",
     description:
-      "A Lakos Ádám evangélikus szeretetszolgálat számára kellett egy olyan weboldalt készítenem, ami a szeretetszolgálat szolgáltatásait és működését mutatja be. Az oldal korábbi verziója nem volt reszponzív, de a statisztikákból egyértelműen látszott, hogy a felhasználói bázis fele mobil készülékről látogatja az oldalt, ezért egy modern reszponzív felületet készítettem a szeretetszolgálat számára. Jelenleg az oldal elfogadásra vár, ezért nem tudok éles verziót mutatni belőle ",
+      "A Lakos Ádám Evangélikus Szeretetszolgálat számára készítettem egy olyan weboldalt, ami a szeretetszolgálat szolgáltatásait és működését mutatja be. Az oldal korábbi verziójához képest előrelépés volt a reszponzív design, amire szükség is volt mivel a mobilis eszközök teszik ki a felhasználói megkeresések felét. Az oldal jelenleg elfogadásra vár, ezért egyenlőre nem tudok éles verziót mutatni belőle.",
     deploy_link: "https://kristof-gym-2.netlify.app",
     github_link: "https://github.com/Gkristof96/Brand_v2",
   },
@@ -23,7 +23,7 @@ export const projectData = [
     name: "Gym Site v2",
     image: "images/projects/project_1.webp",
     description:
-      "Egy korábbi projektem újragondolása volt ezt a projekt. Egy kitalált edzőterem alapvető információnak megjelenítése a feladata, és erre terveztem egy a korábbinál előnyösebb oldalt, ami az információk számában is részletesebb, valamint animációkkal is feldobtam az oldal megjelenését.",
+      "Egy korábbi projektem, az edző termi oldal újragondolása volt ezt a projekt. Az oldalon megjelenő információk és vizuális elemek részletesebbek lettek, valamint animációkkal is igyekeztem feldobni az oldal megjelenését. ",
     deploy_link: "https://kristof-todo.netlify.app",
     github_link: "https://github.com/Gkristof96/Todo-app",
   },
@@ -32,7 +32,7 @@ export const projectData = [
     name: "Todo App",
     image: "images/projects/project_2.webp",
     description:
-      "Első olyan alkalmazásom, amelynek nem csupán annyi a feladata, hogy statikus információkat megjelenítsen. Az alkalmazás fő funkciója a teendőink nyilvántartása, hozzáadhatunk új teendőket, ha elvégeztük azt kipipálhatjuk vagy törölhetjük is. Mint minden alkalmazásnál ennél is igyekeztem hogy az kinézetében is olyan legyen amit szívesen használnak mások is.",
+      "Első olyan alkalmazásom, amelynek nem csak statikus adatok megjelenítése a feladata. Az alkalmazás fő funkciója a teendőink nyilvántartása, hozzáadhatunk új teendőket, ha elvégeztük azt kipipálhatjuk vagy törölhetjük is. Mint minden alkalmazásnál ennél is igyekeztem, hogy az kinézetében is olyan legyen, amit szívesen használnak mások is.",
     deploy_link: "https://kristof-todo.netlify.app",
     github_link: "https://github.com/Gkristof96/Todo-app",
   },
@@ -41,7 +41,7 @@ export const projectData = [
     name: "Weather app",
     image: "images/projects/project_3.webp",
     description:
-      "Második komolyabb logikát is alkalmazó projektem volt ez, a projekttel az volt a célom, hogy egy olyan alkalmazást készítsek, ami külső adatforrást használ a működésére. Erre tökéletes megoldásnak tűnt egy időjárást megjelenítő alkalmazás, az időjárási adatokat pedig az OpenWeather Api segítségével könnyedén felhasználhattam az alkalmazásomban. Az alkalmazás városok szerint keresve tudja megjeleníteni a helyi általános időjárási adatokat.",
+      "Második komolyabb logikát alkalmazó projektem, amelynél az volt a célom, hogy olyan alkalmazást készítsek, ami a működéséhez szükséges adatokat külső forrásból kapja. Erre tökéletes volt egy időjárás kijelző alkalmazás. Az alkalmazás településre keresve jeleníti meg az aktuális időjárási adatokat, amelyeket az OpenWeather API szolgáltat.",
     deploy_link: "https://kristof-todo.netlify.app",
     github_link: "https://github.com/Gkristof96/Todo-app",
   },
@@ -50,7 +50,7 @@ export const projectData = [
     name: "Bikeshop",
     image: "images/projects/project_8.webp",
     description:
-      "Hasonlóan az edző termi oldalhoz ez az oldal is egy kitalált bolt információt jeleníti meg. Annyi a különbség az edző termi oldalhoz, hogy ennek az oldalnak még csak a design tervei vannak készen.",
+      "Az edző termi oldalhoz hasonlóan egy kitalált témához készítettem el a UI terveket. Most éppen egy kerékpár szerviz/bolt adta az alapot, amelyről szintén az alapvető információkat jelenítettem meg. ",
     deploy_link: "https://kristof-todo.netlify.app",
     github_link: "https://github.com/Gkristof96/Todo-app",
   },
@@ -59,7 +59,7 @@ export const projectData = [
     name: "Portfolio v2",
     image: "images/projects/project_9.webp",
     description:
-      "Második portfolió oldalam, viszonylag hamar elkészítettem a portfolió oldalam második verzióját, ennek oka az volt, hogy nem voltam megelégedve az oldal több funkciójával sem. Az új oldalon több információt jelenítettem meg magamról, valamint a projektjeim is átláthatóbb formában tudtam prezentálni.",
+      "Második portfolió oldalam, nem telt el sok idő az első és a második verzió között. Ennek fő oka az volt, hogy nem voltam megelégedve az első verzió több funkciójával sem. Az új oldalon több információt jelenítettem meg magamról, és a projekteket is átláthatóbb formában prezentáltam.",
     deploy_link: "https://kristof-todo.netlify.app",
     github_link: "https://github.com/Gkristof96/Todo-app",
   },
@@ -68,7 +68,7 @@ export const projectData = [
     name: "Portfolio v1",
     image: "images/projects/project_4.webp",
     description:
-      "Első portfolió oldalam, amelynek elsődleges célja a korábbi munkáim megjelenítése volt, ezen felül további információkat szolgáltatott rólam. Valamint remek fejlődési lehetőséget nyújtott UI tervezés szempontjából.",
+      "Első portfolió oldalam, amelyet azért hoztam létre, hogy korábbi projektjeimet egyhelyen tudjam bemutatni, valamint egyéb érdekes információkat magamról. Az oldal eredeti szerepe mellett remek lehetőség volt UI tervezési készségeim fejlesztésére is.",
     deploy_link: "https://kristof-todo.netlify.app",
     github_link: "https://github.com/Gkristof96/Todo-app",
   },
@@ -77,7 +77,7 @@ export const projectData = [
     name: "Gym Site v1",
     image: "images/projects/project_5.webp",
     description:
-      "Első projektem a frontend fejlesztés területén, ami egy teljes weboldal tervezését foglalta magában. Az feladata egy fiktív edzőterem általános információnak megjelenítése, edzők, árak, valamint elérhetőségek.",
+      "Első olyan projektem, amiben egy teljes weboldalt próbáltam meg létrehozni. Az oldal fő funkciója egy fiktív edzőterem általános információnak a megjelenítése volt, mint például árak, edzők, valamint az elérhetőségek.",
     deploy_link: "https://kristof-todo.netlify.app",
     github_link: "https://github.com/Gkristof96/Todo-app",
   },
