@@ -1,7 +1,6 @@
 import { hamburger, line, open, scroll } from "./HamburgerButton.module.css";
 
 const HamburgerButton = (props) => {
-  console.log(props.isScroll);
   return (
     <button
       className={`${hamburger} ${props.isScroll && scroll} ${
