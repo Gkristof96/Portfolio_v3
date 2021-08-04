@@ -1,13 +1,30 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import HamburgerButton from "../UI/Buttons/HamburgerButton";
 import style, { logo, navigation } from "./Header.module.css";
 
 const Header = (props) => {
+  const [scroll, setScroll] = useState(false);
+
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setScroll(true);
+    } else {
+      setScroll(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  }, []);
   return (
-    <header>
+    <header className={style[`${scroll && "scroll"}`]}>
       <Link to="/" className={logo}>
-        <img src="images/logo.png" alt="logo" />
+        {scroll ? (
+          <img src="images/logo_white.png" alt="logo" />
+        ) : (
+          <img src="images/logo.png" alt="logo" />
+        )}
       </Link>
       <nav className={navigation}>
         <ul>
@@ -37,6 +54,7 @@ const Header = (props) => {
         <HamburgerButton
           isMenuOpen={props.isMenuOpen}
           onToggleMenu={props.onMenuToggle}
+          isScroll={scroll}
         />
       </div>
     </header>

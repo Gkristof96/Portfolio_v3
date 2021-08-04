@@ -18,6 +18,9 @@
   background: #212121;
   transition: transform 0.5s ease-in-out;
 }
+.hamburger.scroll .line {
+  background: #fff;
+}
 
 .hamburger.open .line:first-child {
   transform: translateY(10.5px) rotate(45deg);

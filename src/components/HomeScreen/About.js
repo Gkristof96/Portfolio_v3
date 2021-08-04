@@ -71,7 +71,9 @@ const About = () => {
       </div>
       <div className={style["link-wrapper"]}>
         <GradientLine />
-        <LinkButton path="/pdf">Önéletrajz</LinkButton>
+        <a className={style.btn} target="_blank" href="documents/cv.pdf">
+          Önéletrajz
+        </a>
         <GradientLine side="right" />
       </div>
     </Card>

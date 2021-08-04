@@ -1,9 +1,12 @@
-import { hamburger, line, open } from "./HamburgerButton.module.css";
+import { hamburger, line, open, scroll } from "./HamburgerButton.module.css";
 
 const HamburgerButton = (props) => {
+  console.log(props.isScroll);
   return (
     <button
-      className={`${hamburger} ${props.isMenuOpen && open}`}
+      className={`${hamburger} ${props.isScroll && scroll} ${
+        props.isMenuOpen && open
+      }`}
       onClick={props.onToggleMenu}
     >
       <div className={line} />
