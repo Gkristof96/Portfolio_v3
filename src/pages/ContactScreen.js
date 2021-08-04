@@ -1,5 +1,6 @@
 import style from "./ContactScreen.module.css";
 import Card from "../components/UI/Card";
+import { FaPhoneAlt, FaEnvelope, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const ContactScreen = () => {
   return (
@@ -15,10 +16,23 @@ const ContactScreen = () => {
             használhatod az itt megtalálható űrlapot is amit külön erre
             készítettem. Amint lehetőségem engedi válaszolni fogok a leveledre.
           </p>
-          <ul>
-            <li>kristef.g@gmail.com</li>
-            <li>06 30 879 8878</li>
-            <li>linkedin</li>
+          <ul className={style["contact-list"]}>
+            <li>
+              <FaEnvelope className={style.icon} />
+              kristef.g@gmail.com
+            </li>
+            <li>
+              <FaPhoneAlt className={style.icon} />
+              06 30 879 8878
+            </li>
+            <li>
+              <FaLinkedinIn className={style.icon} />
+              LinkedIn
+            </li>
+            <li>
+              <FaGithub className={style.icon} />
+              GitHub
+            </li>
           </ul>
         </div>
         <div className={style["rightbar"]}>
@@ -35,7 +49,7 @@ const ContactScreen = () => {
               <label>Üzenet</label>
               <textarea />
             </div>
-            <button>Küldés</button>
+            <button className={style.btn}>Küldés</button>
           </form>
         </div>
       </div>

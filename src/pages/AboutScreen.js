@@ -11,12 +11,29 @@ const AboutScreen = () => {
       />
       <div className={style["text-wrapper"]}>
         <h1>Rólam</h1>
-        <h2>Ki is vagyok én</h2>
-        <p>Mindig is szerettem alkotni, ez már egészen kiskoromban</p>
+        <h2>Én mint fejlesztő</h2>
         <p>
-          Frontend fejlesztőként a legfontosabb feladatomnak azt tartom hogy
-          olyan munkákat adjak ki a kezem közül, amelyek a lehető legteljesebb
-          felhasználói élményt nyújtják.
+          Ahogy korábban már írtam már egészen kiskoromtól bennem volt az
+          alkotási vágy, akkor érzem jól magam ha létrehozhatok valamit. Ez
+          gyermek koromban még a rajzolást, homokvár építést, legozást, majd
+          nagyobb koromban már különböző építést tervezést szimuláló játékokkal
+          való foglalkozást jelentett. Felnőtként pedig egyértelműen a
+          programozásban, a felhasználói felületek tervezésében találtam meg
+          erre a lehetőséget.
+        </p>
+        <p>
+          Mint frontend fejlesztő, az alapokon kívül elsősorban a React-al
+          dolgoztam, a projektjeim nagyrésze is ezzel készült, így ebben a
+          legmagabiztosabb a tudásom. De ezen kívül minimálisan foglalkoztam már
+          Nodejs-el backend oldalon, valamint a Figma alkalmazással a tervezés
+          területére is betekintettem.
+        </p>
+        <p>
+          Frontend fejlesztőként jelenlegi legfontosabb célom hogy olyan cégnél
+          tudjak elhelyezkedni ahol jó lehetőségeim vannak a szakmai tudásom
+          fejlesztésére. Valamint hogy olyan projekteben tudjak részt vállalni,
+          amelyek valamely módon könnyebé tehetik az emberek életét, és vagy
+          munkáját.
         </p>
         <h2>Mikor éppen nem programozok</h2>
         <p>

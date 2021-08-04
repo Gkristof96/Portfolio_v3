@@ -3,7 +3,28 @@
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 100px;
+  grid-column-gap: 50px;
+  margin: 150px 0;
+}
+
+.contact-list {
+  margin-top: 25px;
+  list-style: none;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #393e46;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #393e46;
+  margin-right: 10px;
 }
 
 .rightbar form {
@@ -14,8 +35,8 @@
 }
 
 .rightbar form .input-group {
-  width: 60%;
-  max-width: 250px;
+  width: 100%;
+  max-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -23,18 +44,42 @@
 }
 
 .input-group label {
+  font-weight: 600;
   font-size: 18px;
-  margin-bottom: 10px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  color: #393e46;
 }
 
 .input-group input,
 .input-group textarea {
   width: 100%;
   resize: none;
+  border: 2px solid #393e46;
+  border-radius: 5px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.input-group textarea {
+  height: 100px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  color: #393e46;
+  border: 2px solid #393e46;
+  background: transparent;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
+  }
+  .input-group {
+    max-width: 270px;
   }
 }
