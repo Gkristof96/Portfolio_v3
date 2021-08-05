@@ -40,32 +40,32 @@ const About = () => {
       <div className={style["logo-bar"]}>
         <img
           className={style["tech-logo"]}
-          src="images/tech_logos/html5.png"
+          src="images/tech_logos/html5.webp"
           alt="html5_logo"
         />
         <img
           className={style["tech-logo"]}
-          src="images/tech_logos/css3.png"
+          src="images/tech_logos/css3.webp"
           alt="css3_logo"
         />
         <img
           className={style["tech-logo"]}
-          src="images/tech_logos/javascript.png"
+          src="images/tech_logos/javascript.webp"
           alt="javascript_logo"
         />
         <img
           className={style["tech-logo"]}
-          src="images/tech_logos/react.png"
+          src="images/tech_logos/react.webp"
           alt="react_logo"
         />
         <img
           className={style["tech-logo"]}
-          src="images/tech_logos/sass.png"
+          src="images/tech_logos/sass.webp"
           alt="sass_logo"
         />
         <img
           className={style["tech-logo"]}
-          src="images/tech_logos/figma.png"
+          src="images/tech_logos/figma.webp"
           alt="figma_logo"
         />
       </div>

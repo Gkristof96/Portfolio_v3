@@ -11,12 +11,12 @@ const ProjectCard = (props) => {
       <div className={style["image-wrapper"]}>
         <img
           className={style["front-dots"]}
-          src="images/small_dots.png"
+          src="images/small_dots.webp"
           alt="small dots"
         />
         <img
           className={style["back-dots"]}
-          src="images/small_dots.png"
+          src="images/small_dots.webp"
           alt="small dots"
         />
         <img className={style["project-image"]} src={image} alt="project 1" />

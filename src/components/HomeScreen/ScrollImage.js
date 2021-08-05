@@ -7,10 +7,14 @@ const ScrollImage = () => {
       <div className={style.icon}>
         <img
           className={style.capsule}
-          src="images/capsule.png"
+          src="images/capsule.webp"
           alt="scroll icon frame"
         />
-        <img className={style.dot} src="images/dot.png" alt="scroll icon dot" />
+        <img
+          className={style.dot}
+          src="images/dot.webp"
+          alt="scroll icon dot"
+        />
       </div>
       <GradientLine side="right" />
     </div>

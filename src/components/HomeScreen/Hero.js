@@ -16,17 +16,17 @@ const Hero = () => {
       <div className={style["image-wrapper"]}>
         <img
           className={style["small-dots"]}
-          src="images/small_dots.png"
+          src="images/small_dots.webp"
           alt="small dots"
         />
         <img
           className={style["profile-img"]}
-          src="images/hero_image.png"
+          src="images/hero_image.webp"
           alt="Me"
         />
         <img
           className={style["large-dots"]}
-          src="images/large_dots.png"
+          src="images/large_dots.webp"
           alt="large dots"
         />
       </div>

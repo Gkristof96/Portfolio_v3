@@ -21,9 +21,9 @@ const Header = (props) => {
     <header className={style[`${scroll && "scroll"}`]}>
       <Link to="/" className={logo}>
         {scroll ? (
-          <img src="images/logo_white.png" alt="logo" />
+          <img src="images/logo_white.webp" alt="logo" />
         ) : (
-          <img src="images/logo.png" alt="logo" />
+          <img src="images/logo.webp" alt="logo" />
         )}
       </Link>
       <nav className={navigation}>

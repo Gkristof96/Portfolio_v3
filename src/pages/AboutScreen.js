@@ -5,7 +5,7 @@ const AboutScreen = () => {
   return (
     <Card>
       <img
-        src="images/about.jpg"
+        src="images/about.webp"
         className={style.cover}
         alt="borítókép rólam"
       />

@@ -11,7 +11,7 @@ const Footer = () => {
     <footer>
       <div className={style.content}>
         <img
-          src="images/logo_white.png"
+          src="images/logo_white.webp"
           alt="Footer logo"
           className={style["logo-image"]}
         />
