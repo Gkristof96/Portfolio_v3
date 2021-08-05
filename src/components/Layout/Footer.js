@@ -16,13 +16,22 @@ const Footer = () => {
           className={style["logo-image"]}
         />
         <div className={style["social-wrapper"]}>
-          <Link to="" className={style["social-icon"]}>
+          <Link
+            to="https://www.linkedin.com/in/krist%C3%B3f-gerencs%C3%A9r-a91a27203/"
+            className={style["social-icon"]}
+          >
             <AiFillLinkedin />
           </Link>
-          <Link to="" className={style["social-icon"]}>
+          <Link
+            to="https://dribbble.com/kristefg"
+            className={style["social-icon"]}
+          >
             <AiFillDribbbleSquare />
           </Link>
-          <Link to="" className={style["social-icon"]}>
+          <Link
+            to="https://github.com/Gkristof96"
+            className={style["social-icon"]}
+          >
             <FaGithubSquare />
           </Link>
         </div>
