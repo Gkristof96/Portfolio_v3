@@ -128,4 +128,13 @@
   .project-card.left .text-wrapper .project-description {
     color: #212121;
   }
+
+  .button-wrapper {
+    flex-direction: column;
+  }
+
+  .button-wrapper .project-button {
+    margin-bottom: 15px;
+    width: 100%;
+  }
 }

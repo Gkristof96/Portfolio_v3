@@ -26,22 +26,26 @@ const ProjectCard = (props) => {
         <h3 className={style["project-title"]}>{name}</h3>
         <p className={style["project-description"]}>{description}</p>
         <div className={style["button-wrapper"]}>
-          <a
-            href={deploy_link}
-            target="_blank"
-            rel="noreferrer"
-            className={style["project-button"]}
-          >
-            See live <FaGlobeEurope className={style["button-icon"]} />
-          </a>
-          <a
-            href={github_link}
-            target="_blank"
-            rel="noreferrer"
-            className={style["project-button"]}
-          >
-            See Github <FaGithub className={style["button-icon"]} />
-          </a>
+          {deploy_link && (
+            <a
+              href={deploy_link}
+              target="_blank"
+              rel="noreferrer"
+              className={style["project-button"]}
+            >
+              Nézd meg élőben <FaGlobeEurope className={style["button-icon"]} />
+            </a>
+          )}
+          {github_link && (
+            <a
+              href={github_link}
+              target="_blank"
+              rel="noreferrer"
+              className={style["project-button"]}
+            >
+              Nézd meg Github-on <FaGithub className={style["button-icon"]} />
+            </a>
+          )}
         </div>
       </div>
     </div>

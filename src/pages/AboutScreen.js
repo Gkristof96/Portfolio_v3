@@ -41,7 +41,7 @@ const AboutScreen = () => {
           felfedezésével tölteni. Szerencsére ezeket együtt is tudom végezni,
           gyakran járunk kerékpártúrákra, korábban pedig fallabdázni. Ezen kívül
           szeretek olvasni, megismerni új dolgokat a világról, vagy egy jó
-          történetet, valamint a gasztronómiával is szoktam ismerkedni
+          történetet, valamint a gasztronómiával is elkezdtem foglalkozni
           mostanában.
         </p>
       </div>

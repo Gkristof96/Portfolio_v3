@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Card>
       <h1 className={style.title}>Rólam</h1>
-      <h2 className={style.subtitle}>Ki is vagyok én</h2>
+      <h2 className={style.subtitle}>Ki vagyok én</h2>
       <div className={style["text-wrapper"]}>
         <div className={style["left-text"]}>
           <p>
@@ -17,8 +17,8 @@ const About = () => {
             találkoztam, informatika szakos szakközépbe jártam és innen
             Mérnökinformatika szakra mentem a Győri Széchenyi István egyetemre.
             Ebből a két ágból összefonva kerültem a frontend fejlesztési
-            területre. Az egyetem mellett igyekeztem magam tovább fejleszteni,
-            és kipróbálni magam minél több technológiában. Így ismerkedtem meg a
+            területre. Az egyetem mellett igyekeztem magam tovább fejleszteni és
+            kipróbálni magam minél több technológiában. Így ismerkedtem meg a
             Nodejs-el a React-al és még sok kisebb nagyobb technológiával.
           </p>
         </div>
@@ -71,7 +71,11 @@ const About = () => {
       </div>
       <div className={style["link-wrapper"]}>
         <GradientLine />
-        <a className={style.btn} target="_blank" href="documents/cv.pdf">
+        <a
+          className={style.btn}
+          target="_blank"
+          href="documents/gerencser_kristof_cv.pdf"
+        >
           Önéletrajz
         </a>
         <GradientLine side="right" />

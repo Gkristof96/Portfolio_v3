@@ -11,7 +11,7 @@ const Contact = () => {
       <p className={style.description}>
         Ehhez nincs más dolgod, mint az itt található gombra kattintani, és
         máris megtalálod az elérhetőségeimet, vagy lehetőséged van közvetlenül
-        innen írni nekem egy emailt az erre a célra kialakított űrlap
+        innen írni nekem egy emailt az erre a célra kialakított Űrlap
         segítségével
       </p>
       <div className={style["link-wrapper"]}>
