@@ -78,15 +78,15 @@ const ContactScreen = () => {
           <div className={style["rightbar"]}>
             <form onSubmit={submitHandler}>
               <div className={style["input-group"]}>
-                <label>Név</label>
+                <label htmlFor="name">Név</label>
                 <input type="text" name="name" />
               </div>
               <div className={style["input-group"]}>
-                <label>Email</label>
+                <label htmlFor="email">Email</label>
                 <input type="email" name="email" />
               </div>
               <div className={style["input-group"]}>
-                <label>Üzenet</label>
+                <label htmlFor="message">Üzenet</label>
                 <textarea name="message" />
               </div>
               <button type="submit" className={style.btn}>
