@@ -32,9 +32,9 @@ export const projectData = [
     name: "Todo App",
     image: "images/projects/project_2.webp",
     description:
-      "Első olyan alkalmazásom, amelynek nem csak statikus adatok megjelenítése a feladata. Az alkalmazás fő funkciója a teendőink nyilvántartása, hozzáadhatunk új teendőket, ha elvégeztük azt kipipálhatjuk vagy törölhetjük is. Mint minden alkalmazásnál ennél is igyekeztem, hogy az kinézetében is olyan legyen, amit szívesen használnak mások is.",
-    deploy_link: "https://kristof-todo.netlify.app",
-    github_link: "https://github.com/Gkristof96/Todo-app",
+      "Teendőink nyilvántartására szolgáló webalkalmazás, a fő funkciók: a teendőink nyilvántartása, hozzáadhatunk új teendőket, ha elvégeztük azt kipipálhatjuk vagy törölhetjük is. Mint minden alkalmazásnál ennél is igyekeztem, hogy az kinézetében is olyan legyen, amit szívesen használnak mások is.",
+    deploy_link: "https://kristof-todo-v2.netlify.app/",
+    github_link: "https://github.com/Gkristof96/Todo-app_v1.2",
   },
   {
     id: 4,
