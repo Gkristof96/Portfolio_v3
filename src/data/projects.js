@@ -6,8 +6,8 @@ export const projectData = [
     description:
       "Eddigi legösszetettebb projektem, melynek fő célja, hogy a felhasználók könnyedén megtalálják azt a szakembert, akit éppen keresnek. A szakemberek létrehozhatnak maguknak egy profilt, amit a felhasználók megkereshetnek és értékelhetik is azt. A projekt során én készítettem el a frontend és a backend oldali kódot is, utóbbit az Express keretrendszer segítségével készítettem el, míg a frontendet a React könyvtárral. Ebben a projektben használtam ki legjobban a React adta lehetőségeket, és itt ismerkedtem meg a Redux és Formik könyvtárakkal is.",
     deploy_link:
-      "https://www.figma.com/file/oQyHIgoTKudLshortAh3Q3/Your-Specialist_v3?node-id=0%3A1",
-    github_link: "https://github.com/Gkristof96/Your-specilist_v2",
+      "https://your-specialist.herokuapp.com/",
+    github_link: "https://github.com/Gkristof96/Your-specilist_v2.2",
   },
   {
     id: 1,
@@ -32,9 +32,9 @@ export const projectData = [
     name: "Todo App",
     image: "images/projects/project_2.webp",
     description:
-      "Első olyan alkalmazásom, amelynek nem csak statikus adatok megjelenítése a feladata. Az alkalmazás fő funkciója a teendőink nyilvántartása, hozzáadhatunk új teendőket, ha elvégeztük azt kipipálhatjuk vagy törölhetjük is. Mint minden alkalmazásnál ennél is igyekeztem, hogy az kinézetében is olyan legyen, amit szívesen használnak mások is.",
-    deploy_link: "https://kristof-todo.netlify.app",
-    github_link: "https://github.com/Gkristof96/Todo-app",
+      "Teendőink nyilvántartására szolgáló webalkalmazás, a fő funkciók: a teendőink nyilvántartása, hozzáadhatunk új teendőket, ha elvégeztük azt kipipálhatjuk vagy törölhetjük is. Mint minden alkalmazásnál ennél is igyekeztem, hogy az kinézetében is olyan legyen, amit szívesen használnak mások is.",
+    deploy_link: "https://kristof-todo-v2.netlify.app/",
+    github_link: "https://github.com/Gkristof96/Todo-app_v1.2",
   },
   {
     id: 4,
