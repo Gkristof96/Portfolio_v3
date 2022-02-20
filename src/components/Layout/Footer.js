@@ -11,25 +11,25 @@ const Footer = () => {
     <footer>
       <div className={style.content}>
         <img
-          src="images/logo_white.webp"
-          alt="Footer logo"
+          src='images/logo_white.webp'
+          alt='Footer logo'
           className={style["logo-image"]}
         />
         <div className={style["social-wrapper"]}>
           <Link
-            to="https://www.linkedin.com/in/krist%C3%B3f-gerencs%C3%A9r-a91a27203/"
+            to='https://www.linkedin.com/in/krist%C3%B3f-gerencs%C3%A9r-a91a27203/'
             className={style["social-icon"]}
           >
             <AiFillLinkedin />
           </Link>
           <Link
-            to="https://dribbble.com/kristefg"
+            to='https://dribbble.com/kristefg'
             className={style["social-icon"]}
           >
             <AiFillDribbbleSquare />
           </Link>
           <Link
-            to="https://github.com/Gkristof96"
+            to='https://github.com/Gkristof96'
             className={style["social-icon"]}
           >
             <FaGithubSquare />
@@ -45,9 +45,9 @@ const Footer = () => {
       </div>
       <div className={style.bottom}>
         <span className={style.copyright}>Copyright ©Kristof - 2021</span>
-        <Link to="/impresszum" className={style.link}>
+        {/*<Link to="/impresszum" className={style.link}>
           Impresszum
-        </Link>
+        </Link>*/}
       </div>
     </footer>
   );

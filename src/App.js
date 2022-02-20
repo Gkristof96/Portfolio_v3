@@ -3,7 +3,7 @@ import Layout from "./components/Layout/Layout";
 import "./App.css";
 
 import HomeScreen from "./pages/HomeScreen";
-import ImpresszumScreen from "./pages/ImpresszumScreen";
+// import ImpresszumScreen from "./pages/ImpresszumScreen";
 import ProjectsScreen from "./pages/ProjectsScreen";
 import AboutScreen from "./pages/AboutScreen";
 import ContactScreen from "./pages/ContactScreen";
@@ -13,21 +13,21 @@ const App = () => {
     <Router>
       <Layout>
         <Switch>
-          <Route path="/" exact>
+          <Route path='/' exact>
             <HomeScreen />
           </Route>
-          <Route path="/projects" exact>
+          <Route path='/projects' exact>
             <ProjectsScreen />
           </Route>
-          <Route path="/about" exact>
+          <Route path='/about' exact>
             <AboutScreen />
           </Route>
-          <Route path="/contact" exact>
+          <Route path='/contact' exact>
             <ContactScreen />
           </Route>
-          <Route path="/impresszum" exact>
+          {/*<Route path="/impresszum" exact>
             <ImpresszumScreen />
-          </Route>
+          </Route>*/}
         </Switch>
       </Layout>
     </Router>

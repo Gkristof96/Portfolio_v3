@@ -1,6 +1,5 @@
 import { Fragment, useState } from "react";
 import style from "./ContactScreen.module.css";
-import Card from "../components/UI/Card";
 import { FaPhoneAlt, FaEnvelope, FaLinkedinIn, FaGithub } from "react-icons/fa";
 // import emailjs from "emailjs-com";
 import Modal from "../components/UI/Modal";
@@ -43,8 +42,8 @@ const ContactScreen = () => {
           </button>
         </Modal>
       )}
-      <Card>
-        <div className={style.container}>
+      <div className={style.container}>
+        <div className={style["content-card"]}>
           <div className={style["leftbar"]}>
             <h1>Kapcsolat</h1>
             <h2>Írj nekem üzenetet</h2>
@@ -78,24 +77,24 @@ const ContactScreen = () => {
           <div className={style["rightbar"]}>
             <form onSubmit={submitHandler}>
               <div className={style["input-group"]}>
-                <label htmlFor="name">Név</label>
-                <input type="text" name="name" />
+                <label htmlFor='name'>Név</label>
+                <input type='text' name='name' />
               </div>
               <div className={style["input-group"]}>
-                <label htmlFor="email">Email</label>
-                <input type="email" name="email" />
+                <label htmlFor='email'>Email</label>
+                <input type='email' name='email' />
               </div>
               <div className={style["input-group"]}>
-                <label htmlFor="message">Üzenet</label>
-                <textarea name="message" />
+                <label htmlFor='message'>Üzenet</label>
+                <textarea name='message' />
               </div>
-              <button type="submit" className={style.btn}>
+              <button type='submit' className={style.btn}>
                 Küldés
               </button>
             </form>
           </div>
         </div>
-      </Card>
+      </div>
     </Fragment>
   );
 };
