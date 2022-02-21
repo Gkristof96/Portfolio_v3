@@ -68,13 +68,18 @@ const ContactScreen = () => {
                 <a
                   href='https://www.linkedin.com/in/krist%C3%B3f-gerencs%C3%A9r-a91a27203/'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <FaLinkedinIn className={style.icon} />
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href='https://github.com/Gkristof96' target='_blank'>
+                <a
+                  href='https://github.com/Gkristof96'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <FaGithub className={style.icon} />
                   GitHub
                 </a>
