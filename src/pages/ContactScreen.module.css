@@ -32,6 +32,14 @@
   margin-bottom: 15px;
 }
 
+.contact-list li a {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  color: #393e46;
+  text-decoration: underline;
+}
+
 .icon {
   font-size: 24px;
   color: #393e46;
@@ -99,11 +107,12 @@
 .btn:hover {
   transform: scale(1.1);
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   .container {
     padding: 0 50px;
   }
+}
+@media (max-width: 768px) {
   .content-card {
     grid-template-columns: 1fr;
   }

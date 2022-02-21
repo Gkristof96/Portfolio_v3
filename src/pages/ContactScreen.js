@@ -65,12 +65,19 @@ const ContactScreen = () => {
                 06 30 879 8878
               </li>
               <li>
-                <FaLinkedinIn className={style.icon} />
-                LinkedIn
+                <a
+                  href='https://www.linkedin.com/in/krist%C3%B3f-gerencs%C3%A9r-a91a27203/'
+                  target='_blank'
+                >
+                  <FaLinkedinIn className={style.icon} />
+                  LinkedIn
+                </a>
               </li>
               <li>
-                <FaGithub className={style.icon} />
-                GitHub
+                <a href='https://github.com/Gkristof96' target='_blank'>
+                  <FaGithub className={style.icon} />
+                  GitHub
+                </a>
               </li>
             </ul>
           </div>

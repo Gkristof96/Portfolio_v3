@@ -5,9 +5,9 @@ const AboutScreen = () => {
   return (
     <Card>
       <img
-        src="images/about.webp"
+        src='images/about.webp'
         className={style.cover}
-        alt="borítókép rólam"
+        alt='borítókép rólam'
       />
       <div className={style["text-wrapper"]}>
         <h1>Rólam</h1>
